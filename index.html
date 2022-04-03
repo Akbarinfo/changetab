@@ -11,25 +11,33 @@
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
-
   <!-- MAIN PART  -->
 
   <main>
+    <section class="change">
+      <div class="container">
+        <div class="change__main">
+
+          <div class="change__boxs">
+            <form class="change__form" id="id-form">
+              <label for="id-input">
+                <input class="change__input" id="id-input" type="number" placeholder="Enter tab index" required>
+              </label>
+
+              <button class="change__sbtn" type="submit" id="btn">Change tab</button>
+            </form>
+            <div class="change__box">
+              <button class="change__btn" onclick="addBtn(event)" id="btn1" type="button" style="color: black;">Postive</button>
+              <button class="change__btn" onclick="addBtn(event)" id="btn2" type="button">Negative</button>
+              <button class="change__btn" onclick="addBtn(event)" id="btn3" type="button">neutral</button>
+            </div>
+            <p class="change__text" id="text">Postive content</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
-
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
